@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Venobox CSS -->
+    <link href="css/venobox.css" rel="stylesheet" />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-5.15.2-web/css/all.min.css"
+    />
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="fonts/flaticon/css/flaticon.css" />
+    <!-- Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+ 
+
+</head>
+
+  <body>    
+    <!--Preload-->
+    <div class="preloader">
+      <div class="preloader_image">
+        <div class="sk-double-bounce">
+          <div class="sk-child sk-double-bounce1"></div>
+          <div class="sk-child sk-double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="tours.html">Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html">Destinasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hotels.html">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+   <section class="signup-step-container">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <div class="wizard">
+                        <div class="wizard-inner">
+                            <div class="connecting-line"></div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true"><span class="round-tab">1 </span> <i>Step 1</i></a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false"><span class="round-tab">2</span> <i>Step 2</i></a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab"><span class="round-tab">3</span> <i>Step 3</i></a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab"><span class="round-tab">4</span> <i>Step 4</i></a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <form role="form" action="index.html" class="login-box">
+                            <div class="tab-content" id="main_form">
+                                <div class="tab-pane active" role="tabpanel" id="step1">
+                                    <div class="row">
+                                     <div class="col-md-12">
+            <div class="sidebar" id="sidebar">
+              <div class="sidebar-inner">
+                <div class="book-tour">
+                  <h3>Isi Data Pemesan</h3>
+                  <div class="sidebar-item sidebar-widget">
+                    <form action="#" method="post">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Nama Kontak</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1"
+                          >No.handpone kontak</label
+                        >
+                        <input type="tel" class="form-control" />
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1"
+                          >Alamat email kontak</label
+                        >
+                        <input type="email" class="form-control" />
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Jumlah Pemesan</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                      <div class="form-group">
+                        <label for="">Jadwal Keberangkatan</label>
+                        <input type="date" class="form-control" />
+                      </div>
+                      <a href="bookinginforman.html">  <input
+                        type="submit"
+                        value="Lanjutkan Pemesanan"
+                        name="submit"
+                        class="btn btn-primary"
+                      /></a>
+                    
+                    </form>
+
+                  
+                  </div>
+                     <ul class="list-inline pull-right">
+
+                        <li><button type="button" class="default-btn next-step">Continue to next step</button></li>
+                     </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+                                        
+                                        
+                                    </div>
+                           
+                                </div>
+                                </form>
+                                <div class="tab-pane" role="tabpanel" id="step2">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="judul text-center" style="font-family: 'Poppins', sans-serif;">
+                                                <h1 style="font-size: 20px; font-family:'Poppins', sans-serif; color: #152C5B;">Payment</h1>
+                                                <p style="font-size: 16px; color: #B0B0B0; font-weight: 400;">Kindly follow the instructions below</p>
+                                            </div>
+
+
+                                            <div class="row">
+
+                                            <div class="col-6">
+                                                <div class="deskripsi">
+                                                    <p>Transfer Pembayaran :</p>
+
+                                                    <p>Sub Total: $480 USD</p>
+                                                    <p>Total: $580 USD</p>
+
+                                                    <div class="gm">
+                                                        <img src="img/image 4.png" alt="">
+                                                        <p>Bank Central Asia <br>
+                                                            2208 1996
+                                                            <br>
+                                                            Golden
+                                                        </p>
+                                                    </div>
+
+                                                     <div class="gm">
+                                                        <img src="img/image 5.png" alt="">
+                                                        <p>Bank Mandiri <br>
+                                                            2208 1996
+                                                            <br>
+                                                            Golden
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                              <div class="col-6">
+                                             <div class="form-group" style="font-family: '';">
+            <label for="input-1" style="font-size: 15px; font-family:'Poppins', sans-serif; color: #152C5B;">Upload Bukti Transfer</label>
+            <input type="file" class="form-control" id="input-1" style="background: #f5f6f8;">
+           </div>
+
+                           <div class="form-group" style="font-family: '';">
+            <label for="input-1" style="font-size: 15px; font-family:'Poppins', sans-serif; color: #152C5B;">Asal Nama Bank</label>
+            <input type="text" class="form-control" id="input-1" style="background: #f5f6f8;">
+           </div>
+
+                           <div class="form-group" style="font-family: '';">
+            <label for="input-1" style="font-size: 15px; font-family:'Poppins', sans-serif; color: #152C5B;">Nama Pengirim</label>
+            <input type="text" class="form-control" id="input-1" style="background: #f5f6f8;">
+           </div>
+                                                </div>
+                                            </div>
+
+
+                                               
+                                    <ul class="list-inline pull-right">
+                                        <li><button type="button" class="default-btn prev-step">Back</button></li>
+                                  
+                                        <li><button type="button" class="default-btn next-step">Continue</button></li>
+                                    </ul>
+                                           
+                                            </div>
+
+                                        </div>
+                                   </div>
+
+
+
+                                     <div class="tab-pane" role="tabpanel" id="step3">
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                              <div class="judul text-center" style="font-family: 'Poppins', sans-serif;">
+                                        
+                                                <img src="img/Group 1 1.png" alt="">
+                                           <p style="font-size: 16px; color: #B0B0B0; font-weight: 400;">We will inform you via email later <br>
+once the transaction has been accepted</p>
+
+                                         <ul class="list-inline pull-right">
+                                        <li><button type="button" class="default-btn prev-step">Back</button></li>
+                                  
+                                        <li><button type="button" class="default-btn next-step">Continue</button></li>
+                                    </ul>
+                                            </div>
+                                        </div>
+                                   
+                                        </div>
+                                   </div>
+
+
+                                   
+                                     <div class="tab-pane" role="tabpanel" id="step4">
+                                    <div class="row">
+
+                                        <div class="col-12">
+                                              <div class="judul text-center" style="font-family: 'Poppins', sans-serif;">
+
+                                                
+                                 
+                                           <h1 style="font-size: 36px; font-family:'Poppins', sans-serif; color: #152C5B;">Yay! Completed</h1>
+                                        
+                                                <img src="img/security.png" alt="sec">
+                                         
+
+                                            <button class="btn btn-primary  " style="margin-top: 100px;">Back To Home</button>
+                                            <a href="index.html"></a>
+                                            </div>
+                                        </div>
+                                   
+                                        </div>
+                                   </div>
+                                    
+
+                                    
+                            </div>
+
+                                </div>
+
+                                
+                              
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog-->
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="">
+              <div class="footer-widget"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <h3>Link Cepat</h3>
+                <ul>
+                  <li><a href="about-us.html">Tentang Kami</a></li>
+                  <li><a href="tours.html">Wisata</a></li>
+                  <li><a href="gallery.html">Galeri</a></li>
+                  <li><a href="contact-us.html">Hubungi Kami</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <h3>Info Kontak</h3>
+                <ul>
+                  <li>
+                    <i class="fa fa-send" aria-hidden="true"></i> Tangcity
+                    Business Park Blok E.17 Cikokol Kota Tanggerang-Banten
+                  </li>
+                  <li>
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i> +62
+                    81316755981
+                  </li>
+                  <li>
+                    <i class="fas fa-phone-square-alt" aria-hidden="true"></i>
+                    (021)59728659
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    Hello@goldenwisata.net
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <h3>Jam Kerja</h3>
+                <ul class="bussiness-hour">
+                  <li>
+                    Senin-Jumat: <span class="pull-right">9am - 5pm.</span>
+                  </li>
+                  <li>Sabtu: <span class="pull-right">10am - 2pm.</span></li>
+                  <li>Minggu: <span class="pull-right">Tutup.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="copyright">
+                <p>Copyright &copy; 2021. All rights reserved.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <ul class="social-icons pull-right">
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Bact to top -->
+    <div class="back-top">
+      <a href="#"><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="mail/js/form-validator.min.js"></script>
+    <script src="mail/js/contact-form-script.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
