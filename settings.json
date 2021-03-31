@@ -1,0 +1,7 @@
+{
+    "bacgkround.enabled": true,
+    "background.useDefault": false,
+    "background.customImages": [
+        "file:///"
+    ]
+}
